@@ -32,7 +32,7 @@ const PinSchema = new mongoose.Schema(
       required: true,
     },
   },
-  { timeStamps: true }
+  { timestamps: true }
 );
 
 const Pin = mongoose.model("Pin", PinSchema);
